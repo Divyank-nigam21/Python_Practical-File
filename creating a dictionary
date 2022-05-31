@@ -1,7 +1,0 @@
-d={}
-c=int(input())
-for i in range(c):
-    k=int(input())
-    v=int(input())
-    d[k]=v
-print(d)
