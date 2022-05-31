@@ -1,0 +1,11 @@
+d={}
+sum1=0
+n=int(input())
+for i in range (n):
+    k=int(input())
+    v=int(input())
+    d[k]=v
+    for l in d.keys():
+        sum1=sum1+d[l]
+print(sum1)
+print(sum(d))
